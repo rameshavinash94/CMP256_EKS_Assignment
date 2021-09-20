@@ -22,7 +22,6 @@ spec:
         volumeMounts:
           - mountPath: /usr/share/nginx/html/index.html
             name: nginx-conf
-            subPath: index.html
       volumes:
         - name: nginx-conf
           configMap:
